@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stayl.css/all.min.css">
+    <link rel="stylesheet" href="stayl.css/bootstrap.min.css">
+    <link rel="stylesheet" href="stayl.css/stayl .css">
+
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="titl ">
+
+                <h2 class="text-secondary mt-4 py-4 ">Bookmarker</h2>
+            </div>
+
+            <div class="col-md-12 border-4 border border-start-0 border-end-0">
+
+                <div class="form text-center m-3  p-4">
+
+                    <h2 class="text-dark m-3">Bookmark your favorite sites</h2>
+
+
+                    <label for="sname" class=" fw-bolder my-3">Site Name</label>
+                    <input type="text" class="form-control w-75 p-0 m-auto px-2" id="sname"
+                        placeholder="Bookmark Name....">
+                        <!-- <p class=" border border-2 border-danger rounded-1 w-50 mx-auto text-danger fw-bolder">Pless Enter </p> -->
+
+                        <p class="d-none border border-2 border-danger rounded-1 w-50 mx-auto text-danger fw-bolder" id="errname">Name is required</p>
+
+                    <label for="surl" class="fw-bolder my-3  ">Site URL</label>
+                    <input type="text" class="form-control w-75 p-0 m-auto px-2" id="surl"  placeholder="Websit URL....">
+                    <p class=" border border-2 border-danger rounded-1 w-50 mx-auto text-danger fw-bolder d-none" id="urlfiel">Url Field is required</p>
+
+                    <button class="but btn btn-info my-5"  id="submt">Submit</button>
+                </div>
+
+                <table id="mytable">
+
+
+                </table>
+            </div>
+
+
+            <div class="end my-3">
+
+                <p class="fs-6 fw-bolde text-secondary"> © 2019 Bookmarker Inc...</p>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="index.js"></script>
+</body>
+
+</html>

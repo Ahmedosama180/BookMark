@@ -1,0 +1,21 @@
+.form{
+    background-color: #EEE;
+}
+.tb{
+    background-image: linear-gradient(#EEE,#FFF);
+    
+}
+.but{
+    transition:0.5s all;
+}
+.but:hover{
+   
+    box-shadow:0px 5px 15px rgb(0 ,0 ,0 ,1);
+   background-color:cadetblue;
+    border: 1px solid #0a3f77;
+}
+.but2:hover{
+    box-shadow:0px 5px 15px rgb(0 ,0 ,0 ,1);
+    
+     border: 1px solid ;
+}
